@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Memória</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="container">
+    <header>
+      <h1 class="titulo">Jogo da Memória</h1>
+    </header>
+
+    <main>
+      <div id="dificuldade">
+        <h2>Escolha a dificuldade:</h2>
+
+        <select id="dificuldade-select">
+          <option selected>Clique aqui</option>
+          <option value="1">Fácil</option>
+          <option value="2">Médio</option>
+          <option value="3">Difícil</option>
+        </select>
+      </div>
+      
+      <div id="temas">
+        <h2>Escolha o tema do jogo</h2>
+
+        <ul id="escolha-temas">
+          <li class="opcao-desabilitada ultimo">Mais temas em breve...</li>
+          
+        </ul>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Jogo da Memória. Aproveite o jogo.</p>
+    </footer>    
+  </div>
+
+  <noscript>
+    Este jogo so funciona com javascript, por favor habilite para poder jogar.
+  </noscript>
+
+  <script src="js/index.js"></script>
+</body>
+</html>

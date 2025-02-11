@@ -15,4 +15,4 @@ Bem-vindo ao Jogo da Memória!
 - JavaScript
 
 ## Desenvolvedor
-- [Seu Nome](https://github.com/seuusuario)
+- [Wellington de Lima Soares](https://github.com/seuusuario)
